@@ -38,6 +38,10 @@ font-family: "Noto Sans Gurmukhi", sans-serif;
   .navbar-brand {
     font-size: small;
   }
+  .container-fluid a:hover {
+    background-color: #7ed9ee !important;
+}
+
 
   .navbar-collapse{
     justify-content: center;
