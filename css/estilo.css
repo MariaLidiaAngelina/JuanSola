@@ -23,7 +23,7 @@ font-family: "Noto Sans Gurmukhi", sans-serif;
 /* Bootstrap */
 .navbar-nav {
     --bs-nav-link-padding-x: 0;
-    --bs-nav-link-padding-y: 0.1 1.5rem !important;
+    --bs-nav-link-padding-y: 0.1 5.5rem !important;
   }
   .navbar>.container-fluid{
      font-family: "Noto Sans Gurmukhi", sans-serif;
@@ -39,7 +39,9 @@ font-family: "Noto Sans Gurmukhi", sans-serif;
     font-size: small;
   }
 
-
+  .navbar-collapse{
+    justify-content: center;
+  }
 
 nav ul {
     display: flex;
