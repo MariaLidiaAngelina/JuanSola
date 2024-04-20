@@ -37,13 +37,14 @@ font-family: "Noto Sans Gurmukhi", sans-serif;
   }
   .navbar-brand {
     font-size: small;
+    padding: 1px;
   }
   .container-fluid a:hover {
     background-color: #7ed9ee !important;
     border-radius: 10px;
 }
 i{
-    font-size: 2rem;
+    font-size: 23px;
     color: #e3a42a;
 }
 
