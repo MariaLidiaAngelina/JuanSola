@@ -40,8 +40,12 @@ font-family: "Noto Sans Gurmukhi", sans-serif;
   }
   .container-fluid a:hover {
     background-color: #7ed9ee !important;
+    border-radius: 10px;
 }
-
+i{
+    font-size: 2rem;
+    color: #e3a42a;
+}
 
   .navbar-collapse{
     justify-content: center;
@@ -80,7 +84,10 @@ li a:hover {
     background-color: #4bcbe8;
 }
 
-
+a{
+    text-decoration: none;
+    color: black;
+}
 footer {
     position: static;
     width: 100%;
@@ -182,6 +189,8 @@ main {
     border-radius: 50%;
     width: 500px;
     justify-items: end;
+    box-shadow: 2px 3px 5px 5px rgba(128, 128, 128, 0.534);
+    border: black solid 2px;
 }
 
 .presentacion div p {
@@ -282,11 +291,11 @@ h3 {
 }
 
 .mapaevento {
-
     grid-area: evento4;
-
 }
-
+.mapaevento iframe{
+    border-radius: 10px;
+}
 .fotoevento img {
     width: 80%;
 }
@@ -627,7 +636,7 @@ p{
     .presentacion div img {
         border-radius: 50%;
         width: 70%;
-    }
+            }
 
     .presentacion div p {
         margin: 5px;
