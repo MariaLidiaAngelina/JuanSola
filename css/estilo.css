@@ -631,7 +631,7 @@ p{
 
     .presentacion div p {
         margin: 5px;
-        order 1;
+        order: 1;
     }
 
     .describe {
