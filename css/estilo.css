@@ -714,7 +714,7 @@ p{
     }
 
     .main-contacto {
-        background-image: url("../resources/juanpiletacielo.jpeg");
+        background-image: url("../resources/juanPiletaCielo.jpeg");
         display: grid;
         justify-items: center;
         grid-template-areas:
